@@ -65,7 +65,9 @@ $(".box").mouseout(function(){
         $(this).addClass("act")
     });   
     
-    
+   $("[type='number']").keypress(function (evt) {
+    evt.preventDefault();
+}); 
     
     
     
