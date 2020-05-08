@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoroad</title>
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Import materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection">
+    
+    <!--Import main stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+       
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+</head>
+<body>
+
+<div class="loader-bg">
+   <div class="loader">
+   <p class="center-align white-text ltext">Loading...</p>
+    <div class="progress lbg">
+      <div class="indeterminate pbg"></div>
+  </div>
+  </div>
+  </div>
+
+<div class="header-page dcar-page">
+   <div class="navigation-area">
+    <header>
+         <nav class="top-nav z-depth-0">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">AUTO<span>ROAD</span></a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="our-cars.html">Our Cars</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <ul class="sidenav" id="slide-out">
+            <li><div class="user-view">
+                <div class="background">
+                </div>
+                <a href="#name"><span class="white-text name">AUTOROAD</span></a>
+                </div>
+            </li>
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">About</a></li>
+            <li class="menu"><a href="pricing.html">Pricing</a></li>
+            <li class="menu"><a href="our-cars.html">Our Cars</a></li>
+            <li class="menu"><a href="blog.html">Blog</a></li>
+            <li class="menu"><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    </header>
+</div>
+   
+<div class="container wrap-header-content dcar-header-content">
+    <div class="row">
+        <nav class="bread dcar-bread">
+            <div class="nav-wrapper">
+                <div class="col s12">
+                <a href="details.html" class="breadcrumb">Go Back</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main-head white-text">
+        <h2>Booking</h2>
+    </div>
+</div>    
+</div>
+
+<div class="booking-page">
+    <div class="container">
+        <div class="rw">
+            <div class="booking-section col l12">
+               
+                <form class="row bpage-trip-form" action="./confirm-booking.html">
+                  <div class="booking-section">
+                        <h4 class="bpage-heads">Make your trip</h4>
+                        <div class="divider"></div>
+                   </div>
+                   
+                   <div class="bpage-trip-section">
+                   
+                   <div class="pick row">
+                    <div class="bpage-pickup minput col l12 m12 s12">
+                    <h6 class="bpage-trip-head">Pick-Up Location</h6>
+                    <input type="text" class="" placeholder="City,Airport,Station,etc" required>
+                    </div>
+                    </div>
+                    
+                    <div class="drop row">
+                    <div class="bpage-dropoff minput col l12 m12 s12">
+                    <h6 class="bpage-trip-head">Drop-Off Location</h6>
+                    <input type="text" class="" placeholder="City,Airport,Station,etc" required>
+                    </div>
+                    </div>
+                    
+                    <div class="date row">
+                    <div class="bpage-pick-date minput col l6 m6 s6">
+                        <h6 class="bpage-trip-head">Pick-up Date</h6>
+                        <input type="text" class="datepicker" placeholder="Date" required>
+                    </div>
+                    
+                    <div class="bpage-drop-date minput col l6 m6 s6">
+                        <h6 class="bpage-trip-head">Drop-off Date</h6>
+                        <input type="text" class="datepicker" placeholder="Date" required>
+                    </div>
+                    </div>
+                    
+                    <div class="time row">
+                    <div class="bpage-time minput col l12 m12 s12">
+                        <h6 class="bpage-trip-head">Pick-up Time</h6>
+                        <input type="text" class="timepicker" placeholder="Time" required>
+                    </div>
+                    </div>
+                    
+                    </div>
+             
+               
+            <div class="row bpage-customer">    
+                    <div class="customer-details-section">
+                        <h4 class="bpage-heads">Customer Information</h4>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="bpage-customer-details">
+                       
+                        <div class="gender row">
+                        <p class="male minput col l2">
+                             <label>
+                                <input name="gender" type="radio" required><span>Mr</span>
+                            </label>
+                        </p>
+                        <p class=" female minput col l2">
+                            <label>
+                                <input name="gender" type="radio" required><span>Ms</span>
+                            </label>
+                        </p>
+                        </div>
+                        
+                        <div class="name row">
+                            <div class="input-field minput col l6 m6 s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="fname" type="text" class="validate" required>
+                            <label for="fname">First Name</label>
+                            </div>
+                            
+                            <div class="input-field minput col l6 m6 s6">
+                            <input id="lname" type="text" class="validate" required>
+                            <label for="lname">Last Name</label>
+                            </div>
+                        </div>
+                        
+                        <div class="bpage-email row">
+                            <div class="input-field minput col l6 m6 s6">
+                            <i class="material-icons prefix">mail</i>
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="wrong" data-success="right"></span>
+                            </div>
+                            <div class="input-field minput col l6 m6 s6">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate" required>
+                            <label for="icon_telephone">Telephone</label>
+                            </div>
+                        </div>
+                        
+                        <div class="bpage-address row">
+                            <div class="input-field minput col l12 m12 s12">
+                            <i class="material-icons prefix">map</i>
+                            <input id="address" type="text" class="validate" required>
+                            <label for="address">Address</label>
+                            </div>
+                        </div>
+                        
+                        <div class="zip-code row">
+                           <div class="input-field minput col l6 m6 s6">
+                            <i class="material-icons prefix">location_city</i>
+                            <input id="city" type="text" class="validate" required>
+                            <label for="city">City</label>
+                            </div>
+                           
+                            <div class="input-field minput col l6 m6 s6">
+                            <i class="material-icons prefix">subtitles</i>
+                            <input id="zip" type="text" class="validate" required>
+                            <label for="zip">ZipCode</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accepting row">
+                        <p class="minput col l6 m8 s12">
+                        <label>
+                        <input type="checkbox" required>
+                        <span>I accept all information and payments etc.</span>
+                        </label>
+                        </p>
+                          
+                        <!-- Modal Trigger -->  
+                        <button class="btn waves-effect waves-light minput bg-clr col l4 offset-l2 m4 s8 offset-s2" type="submit" name="action">Book Now
+                        </button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="wrap-9 footer-page white-text">
+    <div class="container">
+        <footer class="row">
+            <div class="fpart about col l3 m6 s12">
+               <h6 class="fhead">About Autoroad</h6>
+                <p class="fcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusantium, aut possimus autem sint odio quas doloremque.</p>
+                
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="fpart info col l3 m6 s6">
+               <h6 class="fhead list-head">Information</h6>
+                <ul class="fcontent list">
+                    <li><a>About</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Terms and Conditions</a></li>
+                    <li><a>Best Price Guarantee</a></li>
+                    <li><a>Privacy &amp; Cookies Policy</a></li>
+                </ul>
+            </div>
+            <div class="fpart csupport col l3 m6 s6">
+                <h6 class="fhead list-head">Customer Support</h6>
+                <ul class="fcontent list">
+                    <li><a>FAQ</a></li>
+                    <li><a>Payment Option</a></li>
+                    <li><a>Booking Tips</a></li>
+                    <li><a>How it works</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="fpart question col l3 m6 s12">
+                <h6 class="fhead">Have a Question?</h6>
+                <ul class="fcontent query">
+                    <li><i class="fas fa-location-arrow"></i>203 Fake St. Mountain View, San Francisco, California, USA</li>
+                    <li><i class="fas fa-phone-alt"></i>+2 392 3929 210</li>
+                    <li><i class="fas fa-envelope"></i>info@yourdomain.com</li>
+                </ul>
+            </div>
+            <p class="tag col l12 m12 s12 center-align">Copyright &copy; 2020, All rights reserved | This template is designed with <i class="fas fa-heart"></i> by Colorlib and made by <a>Ankit.</a></p>
+        </footer>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--JavaScript at end of body for optimized loading-->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/autoroad-main.js"></script>
+
+
+
+
+</body>
+</html>

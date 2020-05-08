@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autoroad</title>
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Import materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection">
+    
+    <!--Import main stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+       
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+</head>
+<body>
+
+<div class="loader-bg">
+   <div class="loader">
+   <p class="center-align white-text ltext">Loading...</p>
+    <div class="progress lbg">
+      <div class="indeterminate pbg"></div>
+  </div>
+  </div>
+  </div>
+
+
+<div class="header-page">
+   <div class="navigation-area">
+    <header>
+         <nav class="top-nav z-depth-0">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">AUTO<span>ROAD</span></a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" class="act">Pricing</a></li>
+                    <li><a href="our-cars.html">Our Cars</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <ul class="sidenav" id="slide-out">
+            <li><div class="user-view">
+                <div class="background">
+                </div>
+                <a href="#name"><span class="white-text name">AUTOROAD</span></a>
+                </div>
+            </li>
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="about.html">About</a></li>
+            <li class="menu"><a href="#" class="act">Pricing</a></li>
+            <li class="menu"><a href="our-cars.html">Our Cars</a></li>
+            <li class="menu"><a href="blog.html">Blog</a></li>
+            <li class="menu"><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    </header>
+</div>
+   
+<div class="container wrap-header-content">
+    <div class="row">
+        <nav class="bread">
+            <div class="nav-wrapper">
+                <div class="col s12">
+                <a href="index.html" class="breadcrumb">Home</a>
+                <a href="#" class="breadcrumb">Pricing</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main-head white-text">
+        <h2>Car Rates</h2>
+    </div>
+</div>    
+
+</div>
+
+<div class="price-page">
+    <div class="container">
+        <div class="row">
+            <table class="centered responsive-table t-content striped">
+                <thead>
+                    <tr>
+                        <th class="tc-head">Cars</th>
+                        <th class="tc-head">Rating</th>
+                        <th class="tc-head">Per Hour Rate</th>
+                        <th class="tc-head">Per Day Rate</th>
+                        <th class="tc-head">Leasing</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-11-a5-cabriolet.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Audi</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-2.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Range Rover</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-7-5series.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">BMW</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-11.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Mercedes</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-8-x3.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">BMW</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-3.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Audi</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-9.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Mercedes</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                     <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-8.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Jeep</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-1.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Mercedes</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-4.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Range Rover</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-9-m2-c.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">BMW</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                        <div class="cars-img">
+                        <img alt="cars" src="img/car-12-q7.jpg" class="responsive-img table-car">
+                        </div>
+                        </th>
+                        <th>
+                            <p class="tc-name">Audi</p>
+                            <div class="stars">
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star"></i>
+                            <i class="fas fa fa-star not-star"></i>
+                            </div>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$10.99</span><span class="tc-duration"> /per hour</span></p>
+                            <p class="tc-content">$3 /hour fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$60.99</span><span class="tc-duration"> /per day</span></p>
+                            <p class="tc-content">$18 /day fuel surcharges</p>
+                        </th>
+                        <th>
+                            <p><span class="tc-price">$995.99</span><span class="tc-duration"> /per month</span></p>
+                            <p class="tc-content">$295 /month fuel surcharges</p>
+                        </th>
+                    </tr>
+
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="wrap-9 footer-page white-text">
+    <div class="container">
+        <footer class="row">
+            <div class="fpart about col l3 m6 s12">
+               <h6 class="fhead">About Autoroad</h6>
+                <p class="fcontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusantium, aut possimus autem sint odio quas doloremque.</p>
+                
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="fpart info col l3 m6 s6">
+               <h6 class="fhead list-head">Information</h6>
+                <ul class="fcontent list">
+                    <li><a>About</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Terms and Conditions</a></li>
+                    <li><a>Best Price Guarantee</a></li>
+                    <li><a>Privacy &amp; Cookies Policy</a></li>
+                </ul>
+            </div>
+            <div class="fpart csupport col l3 m6 s6">
+                <h6 class="fhead list-head">Customer Support</h6>
+                <ul class="fcontent list">
+                    <li><a>FAQ</a></li>
+                    <li><a>Payment Option</a></li>
+                    <li><a>Booking Tips</a></li>
+                    <li><a>How it works</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="fpart question col l3 m6 s12">
+                <h6 class="fhead">Have a Question?</h6>
+                <ul class="fcontent query">
+                    <li><i class="fas fa-location-arrow"></i>203 Fake St. Mountain View, San Francisco, California, USA</li>
+                    <li><i class="fas fa-phone-alt"></i>+2 392 3929 210</li>
+                    <li><i class="fas fa-envelope"></i>info@yourdomain.com</li>
+                </ul>
+            </div>
+            <p class="tag col l12 m12 s12 center-align">Copyright &copy; 2020, All rights reserved | This template is designed with <i class="fas fa-heart"></i> by Colorlib and made by <a>Ankit.</a></p>
+        </footer>
+    </div>
+</div>
+
+
+<!--JavaScript at end of body for optimized loading-->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/autoroad-main.js"></script>
+
+
+
+<scipt>
+    
+      
+    $(window).load(function(){
+      $(".loader-bg").delay(2000).fadeOut("slow");
+      $(".loader").delay(3000).fadeOut("slow");
+}); 
+    
+</scipt>
+
+
+</body>
+</html>
