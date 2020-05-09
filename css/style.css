@@ -4,6 +4,8 @@
 input{ }
 body{ font-family: 'Poppins', sans-serif;}
 
+.car-pic-secton img:hover{ transform: scale(1.05); transition: .4s;}
+
 #preloader{ position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999; background-color: #fff; padding: 0 40%;}
 
 .loader{ background-color: #424242; width: 300px; padding: 20px 40px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); border-radius: 50px; z-index: 9999;}
@@ -43,7 +45,7 @@ body p{ font-size: 18px; line-height: 1.5;}
 
 .bread{ background-color: transparent; padding-top: 50%; border: none; box-shadow: none;}
 
-.dcar-bread{ padding-top: 40%;}
+.dcar-bread{ padding-top: 30%;}
 
 .main-head{ padding: 2px 10px; display: inline-block; border: 5px solid; border-color: transparent transparent transparent #f7b71d;}
 .main-head h2{ margin: 0;}
@@ -52,9 +54,9 @@ body p{ font-size: 18px; line-height: 1.5;}
 .header-page::after{ content: ""; display: block; background-color: rgba(0,0,0,1); top: 0; left: 0; width: 100%; height: 740px; position: absolute; z-index: -1; opacity: .5; background-attachment: fixed;}
 .header-page{ height: 740px; background-attachment: fixed; position: relative;}
 
-.dcar-page{ height: 600px;}
-.dcar-page::before{ height: 600px;}
-.dcar-page::after{ height: 600px;}
+.dcar-page{ height: 550px;}
+.dcar-page::before{ height: 550px;}
+.dcar-page::after{ height: 550px;}
 
 .wrap-1::before{ background-image: url(../img/bg_1.jpg); background-size: cover; content: ""; display: block; top: 0; left: 0; width: 100%; opacity:; background-rpeat: no-repeat; background-position: center; height: 850px; background-attachment: fixed; position: absolute; z-index: -2;}
 
@@ -71,10 +73,12 @@ body p{ font-size: 18px; line-height: 1.5;}
 h1{ font-size: 60px; line-height: 1.1; font-weight: 300;}
 
 .trip-table-btn{ margin-top: 30px;}
-.trip-table{ pdding: 0 40px !important; transform: translateX(30%);}
+.trip-table{ pdding: 0 40px !important; transform: translateX(30%); display: none;}
 .trip-table h4{ font-size: 30px; font-weight: 600;}
 .trip-form{ background-color: #fff; padding: 40px; border-radius: 10px;}
 .trip-head{ font-size: 16px; font-weight: 500;}
+
+
 
 .wrap-2{ padding: 40px 0;}
 .wrap-2 .select-box{ padding: 0 30px; padding-bottom: 80px;}
@@ -113,28 +117,6 @@ h1{ font-size: 60px; line-height: 1.1; font-weight: 300;}
 .cars-page .card-action a:hover{ background-color: #fc983c; transition: .4s !important;}
 
 .pagination{ margin-top: 80px;}
-
-
-/*
-.wrap-5{ backgound-image: url(../img/bg_1.jpg); backgroun-size: cover; backgound-repeat: no-repeat; bacground-position: 50% 0%; heiht: 850px; background-attachment: fixed; position: relative;}
-
-.wrap-5::before{ background-image: url(../img/bg_2.jpg); background-size: cover; content: ""; display: block; top: 0; left: 0; width: 100%; opacity:; background-rpeat: no-repeat; backgrond-position: 50% 0%; heght: 850px; background-attachment: fixed; position: absolute; z-index: -2;}
-
-.wrap-5::after{ content: ""; display: block; background-color: rgba(0,0,0,1); top: 0; left: 0; width: 100%; heiht: 850px; position: absolute; z-index: -1; opacity: .4; background-attachment: fixed;}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
