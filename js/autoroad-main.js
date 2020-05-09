@@ -19,6 +19,14 @@ $(window).scroll(function(){
     else{
         $(".top-nav").css({"background-color":"transparent", "transition": ".5s"});
     }
+    
+    var z=$(this).scrollTop();
+    if(z>50){
+        $(".trip-table").fadeIn(400);
+    }
+    else{
+        $(".trip-table").fadeOut(400);
+    }
 });    
 
 $(window).load(function(){
@@ -36,6 +44,13 @@ $(".single-car .card-content").mouseout(function(){
    $(this).children(":first").css({"transform": "rotate(0deg) translateY(-20px)"}); 
 });    
     
+$(".car-pic-section").mouseenter(function(){
+   $(this).find("img").css({"transform":"scale(1.05)","transition":"0.4s"})
+});  
+    
+$(".car-pic-section").mouseleave(function(){
+   $(this).find("img").css({"transform":"scale(1)","transition":"0.4s"})
+});     
     
 $(".service").mouseover(function(){
    $(this).find("img").toggleClass("tring"); 
