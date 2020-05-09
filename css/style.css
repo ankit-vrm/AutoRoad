@@ -32,13 +32,13 @@ body p{ font-size: 18px; line-height: 1.5;}
 
 .act{ color: #f7b71d !important;}
 .top-nav li a:hover{ color: #f7b71d;}
-.wrap-1{ height: 850px; background-attachment: fixed; posiion: relative;}
+.wrap-1{ height: 850px; background-attachment: fixed; position: relative;}
 
-.sidenav{ background-color: #212121;}
+.sidenav{ background-color: #fafafa;}
 .sidenav .background{ background-image: url(../img/bg_2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;}
 .sidenav .user-view{ padding: 40px 10px; text-align: center;}
 .sidenav .user-view span{ font-size: 18px !important; font-weight: 700 !important;}
-.sidenav .menu a{ color: #fff;}
+.sidenav .menu a{ color: #000;}
 .sidenav .menu a:hover{ color: #f7b71d;}
 .sidenav .menu:hover a{ transform: translateX(10px) scale(.95); width: 85%;}
 
@@ -377,6 +377,9 @@ input{ margin-bottom: 0 !important;}
 
 @media screen and (max-width:460px){
     
+    .dcar-page{ height: 550px; background-attachment: inherit;}
+.dcar-page::before{ height: 550px; background-attachment: inherit;}
+.dcar-page::after{ height: 550px; background-attachment: inherit;}
     
     .wrap-1{ height: 1100px;}
     .wrap-1::before{ height: 1100px;}
