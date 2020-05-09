@@ -36,12 +36,12 @@ $(window).load(function(){
     $("html, body").animate({ scrollTop: 0 }, "slow");
 }); 
     
-$(".single-car .card-content").mouseover(function(){
-   $(this).children(":first").css({"transform": "rotate(-30deg)"}); 
+$(".single-car").mouseover(function(){
+    $(".cprice", this).css({"transform": "rotate(-30deg)"});
 });
 
-$(".single-car .card-content").mouseout(function(){
-   $(this).children(":first").css({"transform": "rotate(0deg) translateY(-20px)"}); 
+$(".single-car").mouseout(function(){
+    $(".cprice", this).css({"transform": "rotate(0deg) translateY(-20px)"});
 });    
     
 $(".car-pic-section").mouseenter(function(){
