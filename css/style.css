@@ -32,7 +32,7 @@ body p{ font-size: 18px; line-height: 1.5;}
 
 .act{ color: #f7b71d !important;}
 .top-nav li a:hover{ color: #f7b71d;}
-.wrap-1{ height: 850px; background-attachment: fixed; position: relative;}
+.wrap-1{ height: 900px; background-attachment: fixed; position: relative;}
 
 .sidenav{ background-color: #fafafa;}
 .sidenav .background{ background-image: url(../img/bg_2.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;}
@@ -58,9 +58,9 @@ body p{ font-size: 18px; line-height: 1.5;}
 .dcar-page::before{ height: 550px;}
 .dcar-page::after{ height: 550px;}
 
-.wrap-1::before{ background-image: url(../img/bg_1.jpg); background-size: cover; content: ""; display: block; top: 0; left: 0; width: 100%; opacity:; background-rpeat: no-repeat; background-position: center; height: 850px; background-attachment: fixed; position: absolute; z-index: -2;}
+.wrap-1::before{ background-image: url(../img/bg_1.jpg); background-size: cover; content: ""; display: block; top: 0; left: 0; width: 100%; opacity:; background-rpeat: no-repeat; background-position: center; height: 900px; background-attachment: fixed; position: absolute; z-index: -2;}
 
-.wrap-1::after{ content: ""; display: block; background-color: rgba(0,0,0,1); top: 0; left: 0; width: 100%; height: 850px; position: absolute; z-index: -1; opacity: .5; background-attachment: fixed;}
+.wrap-1::after{ content: ""; display: block; background-color: rgba(0,0,0,1); top: 0; left: 0; width: 100%; height: 900px; position: absolute; z-index: -1; opacity: .5; background-attachment: fixed;}
 
 .type{ font-size: 14px; font-weight: 700; color: #fc983c; letter-spacing: 1px;}
 .whead{ font-size: 36px; font-weight: 700; letter-spacing: 2px;}
@@ -78,6 +78,11 @@ h1{ font-size: 60px; line-height: 1.1; font-weight: 300;}
 .trip-form{ background-color: #fff; padding: 40px; border-radius: 10px;}
 .trip-head{ font-size: 16px; font-weight: 500;}
 
+.video{ margin: 40px 0;}
+.video img{ height: 80px;}
+.video:hover{ cursor: pointer;}
+.video a{ color: #fff;}
+.video .play-text p{ font-size: 20px; font-weight: 500 !important; margin-top: 15px; padding: 10px 0;}
 
 
 .wrap-2{ padding: 40px 0;}
@@ -337,10 +342,14 @@ input{ margin-bottom: 0 !important;}
     .notice-head h3{ font-size: 30px;}
     .notice-content h5{ font-size: 20px;}
     .notice-content p{ margin-top: 20px;}
+    
+    .video img{ height: 50px;}
+    .video .play-text p{ margin-top: 5px; font-size: 14px;}
 }
 
 
 @media screen and (max-width:768px){
+    
     
     .top-nav{}
     .whead{ font-size: 30px; font-weight: 600;}
@@ -382,13 +391,16 @@ input{ margin-bottom: 0 !important;}
 
 @media screen and (max-width:460px){
     
+    .video{ margin-bottom: 60px;}
+    .video .play-text p{ margin-bottom: 0 !important; margin-top: 4px !important;}
+    
     .dcar-page{ height: 550px; background-attachment: inherit;}
 .dcar-page::before{ height: 550px; background-attachment: inherit;}
 .dcar-page::after{ height: 550px; background-attachment: inherit;}
     
-    .wrap-1{ height: 1100px;}
-    .wrap-1::before{ height: 1100px;}
-    .wrap-1::after{ height: 1100px; opacity: .6;}
+    .wrap-1{ height: 1200px;}
+    .wrap-1::before{ height: 1200px;}
+    .wrap-1::after{ height: 1200px; opacity: .6;}
     .wrap-1-content{ padding-top: 100px;}
     h1{ font-size: 44px; font-weight: 400;}
     .wrap-1-content .intro p{ font-weight: 300; text-align: justify; font-size: 16px; margin-top: 0px; margin-bottom: 40px;}
