@@ -235,6 +235,7 @@ table p{ text-align: center;}
 .td-stars i{ font-size: 8px;}
 
 
+
 .booking-page{ padding: 80px 0;}
 .bpage-trip-section{ padding: 40px 20px;}
 .minput{ margin-top: 20px;}
@@ -242,16 +243,18 @@ input{ margin-bottom: 0 !important;}
 
 .bpage-customer-details{ padding: 40px 20px;}
 
-.confirm-booking-page{ padding: 20px 0;}
+.confirm-booking-page{ padding: 20px 0 40px;}
 
 .bpage-heads{ font-size: 26px;}
 
 .notice-head h3{ margin: 0; font-size: 34px; font-weight: 500;}
 .notice-head{ padding: 20px 10px; color: #fff;}
-.notice-content h5{ margin: 0; padding: 10px 0; font-size: 24px; font-weight: 500;}
+.notice-content h5{ margin: 0; padding: 10px 0; font-size: 24px; font-weight: 500; line-height: 1.4;}
 .notice{ position: relative; padding: 60px 0;}
 .notice-content p{ font-size: 16px;}
 .notice-content{ padding: 30px 10px;}
+.notice-content .booking-details{ margin: 10px 20px; display: inline-block;} 
+.notice-content .booking-details li{ list-style: square; margin: 5px; padding: 0 5px;}
 .cnf-btn{ transform: translateX(-50%); position: absolute; left: 50%; bottom: 0;}
 
 .greet-head{ font-weight: 600;}
@@ -368,7 +371,9 @@ input{ margin-bottom: 0 !important;}
     .dt-content{ padding: 20px 10px !important;}
     
    
-    
+   
+    .notice-content .booking-details{ margin: 10px; display: inline-block;} 
+.notice-content .booking-details li{ list-style: square; margin: 4px; padding: 0 5px; font-size: 13px;}
     
     
     
